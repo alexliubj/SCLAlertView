@@ -467,6 +467,10 @@ typedef NS_ENUM(NSInteger, SCLAlertViewBackground)
 - (void)showQuestion:(UIViewController *)vc title:(NSString *)title subTitle:(NSString *)subTitle closeButtonTitle:(NSString *)closeButtonTitle duration:(NSTimeInterval)duration;
 - (void)showQuestion:(NSString *)title subTitle:(NSString *)subTitle closeButtonTitle:(NSString *)closeButtonTitle duration:(NSTimeInterval)duration;
 
+/**
+* dismiss callback
+*/
+@property (copy, nonatomic) SCLDismissBlock dismissBlock;
 @end
 
 @protocol SCLItemsBuilder__Protocol__Fluent <NSObject>
