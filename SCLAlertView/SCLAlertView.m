@@ -42,7 +42,6 @@
 @property (strong, nonatomic) NSString *buttonsFontFamily;
 @property (strong, nonatomic) UIWindow *previousWindow;
 @property (strong, nonatomic) UIWindow *SCLAlertWindow;
-@property (copy, nonatomic) SCLDismissBlock dismissBlock;
 @property (copy, nonatomic) SCLDismissAnimationCompletionBlock dismissAnimationCompletionBlock;
 @property (copy, nonatomic) SCLShowAnimationCompletionBlock showAnimationCompletionBlock;
 @property (weak, nonatomic) UIViewController *rootViewController;
